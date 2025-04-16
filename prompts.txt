@@ -1,0 +1,41 @@
+Prompts Used During Development:
+
+1. Designed the UI layout and user interaction flow for a data ingestion tool using HTML and JavaScript.
+
+2. Developed a frontend index.html with:
+Dropdowns for source/target system selection
+Input fields for ClickHouse connection parameters
+Checkbox-based column selection controls
+Buttons like Connect, Load Columns, Preview, and Start Ingestion
+
+3. Implemented Fetch API logic to integrate the frontend with backend services.
+
+4. Wrote a method to establish a secure connection with ClickHouse using JWT token-based authentication.
+
+5. Built a backend method for schema discovery from a specified ClickHouse database.
+
+6. Created a REST API to export data from ClickHouse tables into flat files (CSV format).
+
+7. Developed a method to parse uploaded CSV files and ingest their data into specified ClickHouse tables.
+
+8. Added robust error handling for:
+Connection or authentication failures
+File format and parsing errors
+
+9. Wrote test cases for:
+Flat File to ClickHouse ingestion
+ClickHouse to Flat File export
+Multi-table JOIN queries
+Invalid connection parameters and authentication errors
+
+10. Authored a step-by-step README.md with:
+Setup and configuration instructions
+How to run and test the tool
+API documentation
+
+11. Created a dedicated testing guide with example datasets and usage scenarios.
+
+12. Structured the final deliverables including:
+Source code
+README file
+prompts.txt
